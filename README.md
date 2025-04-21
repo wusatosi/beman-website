@@ -74,6 +74,7 @@ $ npm install -g yarn
 ## Start local sever
 
 To start a local development server, run:
+
 ```shell
 $ make start
 ```
