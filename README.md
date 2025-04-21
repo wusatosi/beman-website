@@ -26,12 +26,25 @@ yarn --version
 If this fails, please check manual instructions:
 
 <details>
+<summary> Dev Continar instructions </summary>
+
+This project includes a development container configuration for VS Code. To use it:
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+2. Open the project in VS Code.
+3. When prompted, reopen the project in the dev container.
+4. The container will automatically install dependencies and set up the environment.
+5. Go to the [Start local server](#start-local-sever) section.
+
+</details>
+
+<details>
 <summary> Linux instructions</summary>
 
 ```shell
 $ sudo apt install nodejs
 $ sudo apt install npm
-$ npm ins
+$ npm install
 ```
 
 </details>
@@ -54,19 +67,6 @@ $ npm install -g yarn
 $ winget install OpenJS.NodeJS
 $ npm install -g yarn
 ```
-
-</details>
-
-<details>
-<summary> Dev Continar instructions </summary>
-
-This project includes a development container configuration for VS Code. To use it:
-
-1. Install [Visual Studio Code](https://code.visualstudio.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
-2. Open the project in VS Code.
-3. When prompted, reopen the project in the dev container.
-4. The container will automatically install dependencies and set up the environment.
-5. Go to the [Start local server](#start-local-sever) section.
 
 </details>
 
