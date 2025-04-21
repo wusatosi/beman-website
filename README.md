@@ -85,3 +85,7 @@ To generate static from the project that can be served using any static contents
 ```bash
 $ make build
 ```
+
+## Add a blog post
+
+TODO: https://github.com/bemanproject/website/issues/12
