@@ -32,6 +32,7 @@ If this fails, please check manual instructions:
 $ sudo apt install nodejs
 $ sudo apt install npm
 $ npm ins
+```
 
 </details>
 
