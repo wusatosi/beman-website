@@ -4,7 +4,8 @@ This is the repository hosting the code for the future Beman Website.
 
 We aim to replace the content from the [existing Beman website](https://www.bemanproject.org) by deploying the website generated from current repository.
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. Documentation is written in MDX format.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. 
+Documentation is written in MDX format.
 Building and deploying it requires Node and NPM.
 
 ## Local development
