@@ -27,7 +27,7 @@ yarn --version
 If this fails, please check manual instructions:
 
 <details>
-<summary> Dev Continar instructions </summary>
+<summary> Dev Container instructions </summary>
 
 This project includes a development container configuration for VS Code. To use it:
 
