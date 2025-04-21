@@ -21,6 +21,7 @@ If this fails, please check manual instructions:
 
 <details>
 <summary> Linux instructions</summary>
+
 ```bash
 $ sudo apt install nodejs
 $ sudo apt install npm
@@ -40,6 +41,7 @@ $ npm install -g yarn
 
 <details>
 <summary> Windows instructions</summary>
+
 ```bash
 $ winget install OpenJS.NodeJS
 $ npm install -g yarn
