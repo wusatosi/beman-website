@@ -1,7 +1,6 @@
-.PHONY: install build start
+.PHONY: all install build start
 
-# Default target: make => install + start
-make: install start
+all: install build start
 
 install:
 	yarn install
