@@ -2,40 +2,49 @@
 
 This is the repository hosting the code for the future Beman Website.
 
-We aim to replace the content from [the the Beman website](https://www.bemanproject.org) by deploying the website generated from current repository.
+We aim to replace the content from the [existing Beman website](https://www.bemanproject.org) by deploying the website generated from current repository.
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-Documentation is written in MDX format.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. Documentation is written in MDX format.
 Building and deploying it requires Node and NPM.
 
-## Installation and development
+## Local development
 
-### Local setup
+### Install dependencies
 
-1. In order to setup the project, you have to install `npm`, `yarn` and `node`. 
+In order to setup the project, you have to install `npm`, `yarn` and `node`.
 
-For Linux:
+```shell
+$ make install
+```
 
+If this fails, please check manual instructions:
+
+<details>
+<summary> Linux instructions</summary>
 ```bash
 $ sudo apt install nodejs
 $ sudo apt install npm
 $ npm install yarn
 ```
+</details>
 
-For MacOS:
+<details>
+<summary> MacOS instructions</summary>
 
 ```bash
 $ brew install node
 $ brew install npm
 $ npm install -g yarn
 ```
+</details>
 
-For Windows:
-
+<details>
+<summary> Windows instructions</summary>
 ```bash
 $ winget install OpenJS.NodeJS
 $ npm install -g yarn
 ```
+</details>
 
 You can verify `yarn` is properly installed using
 
@@ -43,23 +52,17 @@ You can verify `yarn` is properly installed using
 yarn --version
 ```
 
-1. To install the required components for running the website, run the following command inside the cloned repository:
-    ```bash
-    $ make install
-    ```
+## Start local sever
 
-1. To start a local development server, run:
-    ```bash
-    $ make start
-    ```
-    If everything is properly installed, the command  should open a browser window on http://localhost:3000/.
-    Most changes are reflected live without having to restart the server.
+To start a local development server, run:
+```bash
+$ make start
+```
 
-1. To generate static from the project that can be served using any static contents hosting service (like `gh-pages`).
+If everything is properly installed, the command  should open a browser window on http://localhost:3000/.
 
-    ```bash
-    $ make build
-    ```
+Most changes are reflected live without having to restart the server.
+
 
 ### Dev Container
 
@@ -75,3 +78,10 @@ You can then run the following commands inside the container:
 - Start the development server: `make start`
 - Build the static site: `make build`
 
+## Generate static content for GitHub Pages deployment
+
+To generate static from the project that can be served using any static contents hosting service (like `gh-pages`).
+
+```bash
+$ make build
+```

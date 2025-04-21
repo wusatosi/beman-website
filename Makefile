@@ -1,12 +1,12 @@
 .PHONY: all install build start
 
-all: install build start
+all: install start
 
-install:
+install: # Install dependencies
 	yarn install
 
-build:
-	yarn build
-
-start:
+start: # Start local development server
 	yarn start
+
+build: # Generate static content for GitHub Pages deployment
+	yarn build
