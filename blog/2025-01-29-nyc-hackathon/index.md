@@ -1,18 +1,17 @@
 ---
-slug: nyc-hackathon  # URL slug for the post
-title: "NYC Hackathon"  # Title of the post
-authors: ["DavidSankel"]  # Author(s) of the post
-tags: ["hackathon", "nyc", "blog"]  # Tags for categorization
+slug: nyc-hackathon
+authors: ["camio"]
+tags: ["hackathon", "beman"]
 ---
 
 # NYC Hackathon
 
-![busy coding](./images/20250123_170307.jpg "Several hackathon members busy coding. They give the impression of serious and intense work happening!")
+![busy coding](./images/hacking.jpg "Several hackathon members busy coding. They give the impression of serious and intense work happening!")
 
 Adobe hosted an exciting and intense half-day Beman hackathon where we worked on
 adding new Beman libraries, addressed infrastructure issues, and brainstormed
 designs for the Beman website. 
-<!-- truncate -->
+
 It was awesome to collaborate in person. Here's
 some of the awesome stuff that got accomplished:
 
@@ -32,4 +31,4 @@ some of the awesome stuff that got accomplished:
 Overall it was productive and a ton of fun. Thanks to Robert, Eddie, Linus,
 River, Nick, Bret, and Robert for participating!
 
-![portrait of attendees](./images/20250123_170405.jpg "All the hackathon folks standing together in a portrait looking very cool.")
+![portrait of attendees](./images/final-photo.jpg "All the hackathon folks standing together in a portrait looking very cool.")

@@ -1,6 +1,5 @@
 ---
 slug: about-beman
-title: About Beman
 authors: [dabrahams]
 tags: [beman]
 ---

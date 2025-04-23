@@ -1,11 +1,11 @@
-JeffGarland :
-  name: Jeff Garland
-  title: Boost C++ Developer, C++ Committee Library Working Group Asst. Chair
-  url: https://github.com/JeffGarland
-  image_url: https://avatars.githubusercontent.com/u/4427406?v=4
+camio:
+  name: David Sankel
+  title: C++ Developer, Beman Lead
+  url: https://github.com/camio
+  image_url: https://avatars.githubusercontent.com/u/3770603
   page: true
   socials:
-    github: JeffGarland
+    github: camio
 
 dabrahams:
   name: Dave Abrahams
@@ -16,11 +16,11 @@ dabrahams:
   socials:
     github: dabrahams
 
-DavidSankel:
-  name: David Sankel
-  title: C++ Developer, Beman Lead
-  url: https://github.com/camio
-  image_url: https://avatars.githubusercontent.com/u/3770603
+JeffGarland:
+  name: Jeff Garland
+  title: Boost C++ Developer, C++ Committee Library Working Group Asst. Chair
+  url: https://github.com/JeffGarland
+  image_url: https://avatars.githubusercontent.com/u/4427406?v=4
   page: true
   socials:
-    github: camio
+    github: JeffGarland
