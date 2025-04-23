@@ -1,0 +1,51 @@
+beman:
+  label: Beman
+  permalink: /beman
+
+beman-docs:
+  label: Beman Docs
+  permalink: /beman-docs
+
+beman-infra:
+  label: Beman Infra
+  permalink: /beman-infra
+
+beman-library:
+  label: Beman Library
+  permalink: /beman-library
+
+c++:
+  label: C++
+  permalink: /cpp
+
+c++26:
+  label: C++26
+  permalink: /cpp26
+
+c++29:
+  label: C++29
+  permalink: /cpp29
+
+c++32:
+  label: C++32
+  permalink: /cpp32
+
+c++now:
+  label: C++Now
+  permalink: /cppnow
+
+community:
+  label: Community
+  permalink: /community
+
+conference:
+  label: Conference
+  permalink: /conference
+
+cppcon:
+  label: CppCon
+  permalink: /cppcon
+
+hackathon:
+  label: Hackathon
+  permalink: /hackathon
