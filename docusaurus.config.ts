@@ -21,7 +21,7 @@ try {
 const config: Config = {
   title: 'The Beman Project',
   tagline: 'Supporting the efficient design and adoption of the highest quality C++ standard libraries.',
-  favicon: 'img/beman_logo.png',
+  favicon: '/images/logo/beman_logo.png',
 
   // Set the production url of your site here
   url: 'https://bemanproject.github.io',
@@ -77,12 +77,12 @@ const config: Config = {
 
   themeConfig: {
     //TODO: Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'images/docusaurus-social-card.jpg',
     navbar: {
       title: 'The Beman Project',
       logo: {
         alt: 'The Beman Project Logo',
-        src: 'img/beman_logo.png',
+        src: '/images/logo/beman_logo.png',
       },
       items: [
         {

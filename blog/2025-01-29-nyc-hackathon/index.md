@@ -7,7 +7,7 @@ tags: ["hackathon", "nyc", "blog"]  # Tags for categorization
 
 # NYC Hackathon
 
-![busy coding](20250123_170307.jpg "Several hackathon members busy coding. They give the impression of serious and intense work happening!")
+![busy coding](./images/20250123_170307.jpg "Several hackathon members busy coding. They give the impression of serious and intense work happening!")
 
 Adobe hosted an exciting and intense half-day Beman hackathon where we worked on
 adding new Beman libraries, addressed infrastructure issues, and brainstormed
@@ -32,4 +32,4 @@ some of the awesome stuff that got accomplished:
 Overall it was productive and a ton of fun. Thanks to Robert, Eddie, Linus,
 River, Nick, Bret, and Robert for participating!
 
-![portrait of attendees](20250123_170405.jpg "All the hackathon folks standing together in a portrait looking very cool.")
+![portrait of attendees](./images/20250123_170405.jpg "All the hackathon folks standing together in a portrait looking very cool.")
