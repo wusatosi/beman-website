@@ -124,9 +124,9 @@ $ make
 
 </details>
 
-1. After you got `a succesful CI preview deployment`, update the PR to be ready for review and add [@leads](https://github.com/orgs/bemanproject/teams/leads) /[@core-reviewers](https://github.com/orgs/bemanproject/teams/core-reviewers).
+5. After you got `a succesful CI preview deployment`, update the PR to be ready for review and add [@leads](https://github.com/orgs/bemanproject/teams/leads) /[@core-reviewers](https://github.com/orgs/bemanproject/teams/core-reviewers).
 
-2. Apply the review feedback. Get approval. Merge the PR.
+6. Apply the review feedback. Get approval. Merge the PR.
 
 <!-- TODO: Replace with https://www.bemanproject.org/ after the website deployment switch. -->
 7. The updates are automatically deployed to the productiom website after few minutes - check https://bemanproject.github.io/website/.
