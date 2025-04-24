@@ -11,6 +11,7 @@ tags: ["hackathon", "beman"]
 Adobe hosted an exciting and intense half-day Beman hackathon where we worked on
 adding new Beman libraries, addressed infrastructure issues, and brainstormed
 designs for the Beman website. 
+<!-- truncate -->
 
 It was awesome to collaborate in person. Here's
 some of the awesome stuff that got accomplished:

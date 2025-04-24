@@ -66,7 +66,7 @@ const config: Config = {
           // Blogging config
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'throw', // Enforce truncation of blog posts for previews of blog posts.
         },
         theme: {
           customCss: './src/css/custom.css',
