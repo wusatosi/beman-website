@@ -7,7 +7,7 @@ We aim to replace the content from the [existing Beman website](https://www.bema
 <!-- TODO: Remove this after the website deployment switch. -->
 > Note: https://bemanproject.github.io/website/ is used a temporary domain while we boostrap the new website infrastructure.
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. 
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 Documentation is written in MDX format.
 Building and deploying it requires Node and NPM.
 
@@ -20,7 +20,7 @@ Building and deploying it requires Node and NPM.
 Example:
 
 ```shell
-$ tree blog/2000-10-30-my-blog-example/                       
+$ tree blog/2000-10-30-my-blog-example/
 blog/2000-10-30-my-blog-example/
 ├── images
 │   └── beman_logo.png
@@ -29,7 +29,7 @@ blog/2000-10-30-my-blog-example/
 2 directories, 2 files
 ```
 
-3. Add your blog post content - full example in [PR #46](https://github.com/bemanproject/website/pull/46/): 
+3. Add your blog post content - full example in [PR #46](https://github.com/bemanproject/website/pull/46/):
 
 ```shell
 $ cat blog/2000-10-30-my-blog-example/index.md
@@ -58,7 +58,7 @@ name:           # Your Real Name.
 title:          # Your title, how do you want to be recognized by other people.
 url:            # Your Github profile page
 image_url:      # A url for your profile image (for Github profile image: go to your profile, click on your image and open it in a new tab, copy the link).
-page: true      # If an author page should be generated for you. 
+page: true      # If an author page should be generated for you.
 socials:        # Include your socials (like your Github, X, Linkedin etc)
     github: <yourGithubId>
 ```
@@ -69,28 +69,28 @@ Full example also in [PR #46](https://github.com/bemanproject/website/pull/46/).
 
 4. Open a `DRAFT PR` and `wait` up to one minute for a preview deployment of your blog post.
 
-* Draft PR example - [#46](https://github.com/bemanproject/website/pull/46). 
+* Draft PR example - [#46](https://github.com/bemanproject/website/pull/46).
+
+* Click on the `Deploy Preview` URL - e.g., https://deploy-preview-46--bemanproject.netlify.app/
 
 * Successful CI preview deployment example:
 
-![CI preview deployment success message](./images/tutorial/add-a-blog/ci-preview-deployment-success-message.png)  
-
-* Click on the `Deploy Preview` URL - e.g., https://deploy-preview-46--bemanproject.netlify.app/
+![CI preview deployment success message](./images/tutorial/add-a-blog/ci-preview-deployment-success-message.gif)
 
 * Test your deployment.
 
 <details>
 <summary> [DEBUG] Inspect CI preview deployment error logs </summary>
 
-* `DRAFT` PR example with CI preview deployment error  - [#49](https://github.com/bemanproject/website/pull/49). 
-  
-* Failed CI preview deployment example:
+The CI preview deployment logs should be public. Please ping a codeowner otherwise.
 
-![](./images/tutorial/add-a-blog/ci-preview-deployment-failure-message.png)
+* `DRAFT` PR example with CI preview deployment error  - [#49](https://github.com/bemanproject/website/pull/49).
 
 * Click on the `Latest deploy log` URL - e.g., https://app.netlify.com/sites/bemanproject/deploys/6809108974fd910008633aa9.
 
-* TODO: set permissions.
+* Logs inspect example:
+
+![](./images/tutorial/add-a-blog/ci-preview-deployment-failure-message.gif)
 
 * Fix the error, commit, push. Wait for new deployment.
 
@@ -102,7 +102,7 @@ Full example also in [PR #46](https://github.com/bemanproject/website/pull/46/).
 * On local setup, run `make` (see [Local development](#local-development)) and check if there is any error in the console - example:
 
 ```shell
-$ make 
+$ make
 ...
 [INFO] Starting the development server...
 ...
@@ -124,9 +124,9 @@ $ make
 
 </details>
 
-5. After you got `a succesful CI preview deployment`, update the PR to be ready for review and add [@leads](https://github.com/orgs/bemanproject/teams/leads) /[@core-reviewers](https://github.com/orgs/bemanproject/teams/core-reviewers).
+1. After you got `a succesful CI preview deployment`, update the PR to be ready for review and add [@leads](https://github.com/orgs/bemanproject/teams/leads) /[@core-reviewers](https://github.com/orgs/bemanproject/teams/core-reviewers).
 
-6. Apply the review feedback. Get approval. Merge the PR.
+2. Apply the review feedback. Get approval. Merge the PR.
 
 <!-- TODO: Replace with https://www.bemanproject.org/ after the website deployment switch. -->
 7. The updates are automatically deployed to the productiom website after few minutes - check https://bemanproject.github.io/website/.
