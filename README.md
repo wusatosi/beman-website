@@ -80,7 +80,7 @@ Full example also in [PR #46](https://github.com/bemanproject/website/pull/46/).
 * Test your deployment.
 
 <details>
-<summary> [DEBUG] Inspect CI preview deployment error logs </summary>
+<summary> [DEBUG] Inspect CI preview deployment error logs. </summary>
 
 The CI preview deployment logs should be public. Please ping a codeowner otherwise.
 
@@ -94,10 +94,13 @@ The CI preview deployment logs should be public. Please ping a codeowner otherwi
 
 * Fix the error, commit and push the changes. Wait for new deployment.
 
+> If you need to browse through more recent CI preview deployments logs use https://app.netlify.com/sites/bemanproject/deploys/. Note: netlify provides a single a single CI preview deployment for each PR - latest commit, but stores logs for multiple ones.
+
+
 </details>
 
 <details>
-<summary> [DEBUG] Inspect local deployment error logs </summary>
+<summary> [DEBUG] Inspect local deployment error logs. </summary>
 
 * On local setup, run `make` (see [Local development](#local-development)) and check if there is any error in the console - example:
 
