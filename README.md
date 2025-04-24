@@ -92,7 +92,7 @@ The CI preview deployment logs should be public. Please ping a codeowner otherwi
 
 ![](./images/tutorial/add-a-blog/ci-preview-deployment-failure-message.gif)
 
-* Fix the error, commit, push. Wait for new deployment.
+* Fix the error, commit and push the changes. Wait for new deployment.
 
 </details>
 
