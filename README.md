@@ -13,7 +13,7 @@ Building and deploying it requires Node and NPM.
 
 ## Add a blog post
 
-1. Clone the repository and a create new branch (which is required to get a CI preview deployment with your changes).
+1. Clone the repository and a create new branch.
 
 2. Create a directory`blog/YYYY-MM-DD-tile-of-post/` and write the blog post Markdown content in `index.md`:
 
@@ -96,7 +96,6 @@ The CI preview deployment logs should be public. Please ping a codeowner otherwi
 
 > If you need to browse through more recent CI preview deployments logs use https://app.netlify.com/sites/bemanproject/deploys/. Note: netlify provides a single a single CI preview deployment for each PR - latest commit, but stores logs for multiple ones.
 
-
 </details>
 
 <details>
@@ -132,7 +131,7 @@ $ make
 6. Apply the review feedback. Get approval. Merge the PR.
 
 <!-- TODO: Replace with https://www.bemanproject.org/ after the website deployment switch. -->
-7. The updates are automatically deployed to the productiom website after few minutes - check https://bemanproject.github.io/website/.
+7. The updates are automatically deployed to the production website after a few minutes - check https://bemanproject.github.io/website/.
 
 ## Local development
 
