@@ -13,9 +13,9 @@ Building and deploying it requires Node and NPM.
 
 ## Add a blog post
 
-1. Clone the repository and a create new branch.
+1. Repository setup: `create a local clone` or `open in Codespaces`.
 
-2. Create a directory`blog/YYYY-MM-DD-tile-of-post/` and write the blog post Markdown content in `index.md`:
+2. Create a directory having an `index.md` file using this pattern: `blog/YYYY-MM-DD-tile-of-post/index.md`:
 
 Example:
 
@@ -29,8 +29,9 @@ blog/2000-10-30-my-blog-example/
 2 directories, 2 files
 ```
 
-3. Add your blog post content - full example in [PR #54](https://github.com/bemanproject/website/pull/54/):
+3. Add your full Markdown blog post content inside the `index.md` file.
 
+Example
 ```shell
 $ cat blog/2000-10-30-my-blog-example/index.md
 ---
@@ -65,13 +66,12 @@ socials:        # [optional] Include your socials (like your Github, X, Linkedin
     x: <yourId>           # [optional] Add X page.
 ```
 
-Full example also in [PR #54](https://github.com/bemanproject/website/pull/54/).
 </details>
 
 
 4. Open a `DRAFT PR` and `wait` up to one minute for a preview deployment of your blog post.
 
-* Draft PR example: [PR #54](https://github.com/bemanproject/website/pull/54/).
+* Draft PR example: [Add blog post: My Blog Example #54](https://github.com/bemanproject/website/pull/54/).
 
 * Click on the `Deploy Preview` URL (format `https://deploy-preview-${PR NUMBER}--bemanproject.netlify.app/`).
 
