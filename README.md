@@ -29,7 +29,7 @@ blog/2000-10-30-my-blog-example/
 2 directories, 2 files
 ```
 
-3. Add your blog post content - full example in [PR #46](https://github.com/bemanproject/website/pull/46/):
+3. Add your blog post content - full example in [PR #54](https://github.com/bemanproject/website/pull/54/):
 
 ```shell
 $ cat blog/2000-10-30-my-blog-example/index.md
@@ -59,19 +59,21 @@ title:          # Your title, how do you want to be recognized by other people.
 url:            # Your Github profile page
 image_url:      # A url for your profile image (for Github profile image: go to your profile, click on your image and open it in a new tab, copy the link).
 page: true      # If an author page should be generated for you.
-socials:        # Include your socials (like your Github, X, Linkedin etc)
-    github: <yourGithubId>
+socials:        # [optional] Include your socials (like your Github, X, Linkedin etc)
+    github: <yourId>      # [optional] Add GitHub page.
+    linkedin: <yourId>    # [optional] Add LinkedIn page.
+    x: <yourId>           # [optional] Add X page.
 ```
 
-Full example also in [PR #46](https://github.com/bemanproject/website/pull/46/).
+Full example also in [PR #54](https://github.com/bemanproject/website/pull/54/).
 </details>
 
 
 4. Open a `DRAFT PR` and `wait` up to one minute for a preview deployment of your blog post.
 
-* Draft PR example - [#46](https://github.com/bemanproject/website/pull/46).
+* Draft PR example: [PR #54](https://github.com/bemanproject/website/pull/54/).
 
-* Click on the `Deploy Preview` URL - e.g., https://deploy-preview-46--bemanproject.netlify.app/
+* Click on the `Deploy Preview` URL (format `https://deploy-preview-${PR NUMBER}--bemanproject.netlify.app/`).
 
 * Successful CI preview deployment example:
 
