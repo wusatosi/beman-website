@@ -15,7 +15,7 @@ Building and deploying it requires Node and NPM.
 
 1. Clone the repository and a create new branch (which is required to get a CI preview deployment with your changes).
 
-2. Create a new blog directory with custom layout - template for entry point `blog/YYYY-MM-DD-tile-of-post/index.md`:
+2. Create a directory`blog/YYYY-MM-DD-tile-of-post/` and write the blog post Markdown content in `index.md`:
 
 Example:
 
@@ -23,8 +23,8 @@ Example:
 $ tree blog/2000-10-30-my-blog-example/
 blog/2000-10-30-my-blog-example/
 ├── images
-│   └── beman_logo.png
-└── index.md
+│   └── beman_logo.png # images are stored in ./images/
+└── index.md           # actual blog post content
 
 2 directories, 2 files
 ```
@@ -34,9 +34,9 @@ blog/2000-10-30-my-blog-example/
 ```shell
 $ cat blog/2000-10-30-my-blog-example/index.md
 ---
-slug: my-blog-example-slug
-authors: [neatudarius]
-tags: ["cpp26", "beman-docs"]
+slug: my-blog-example-slug    # Slug example. Remove this comment if using this template.
+authors: [neatudarius]        # Authors list with entrie from blog/authors.yml. Remove this comment if using this template.
+tags: ["cpp26", "beman-docs"] # Blog post valid tags from blog/tags.yml. Remove this comment if using this template.
 ---
 
 # My Blog Example
@@ -44,7 +44,7 @@ tags: ["cpp26", "beman-docs"]
 This is my blog example.
 
 Here I can write Markdown content.
-...
+[...]
 ```
 
 <details>
