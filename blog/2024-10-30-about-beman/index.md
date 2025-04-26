@@ -1,9 +1,10 @@
 ---
 slug: about-beman
-title: About Beman
 authors: [dabrahams]
 tags: [beman]
 ---
+
+# About Beman
 
 ![A photo of Beman Dawes](./images/beman.png)
 
