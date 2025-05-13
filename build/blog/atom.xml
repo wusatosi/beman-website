@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bemanproject.github.io/blog</id>
+    <title>The Beman Project Blog</title>
+    <updated>2025-01-29T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://bemanproject.github.io/blog"/>
+    <subtitle>The Beman Project Blog</subtitle>
+    <icon>https://bemanproject.github.io/./img/beman_logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[NYC Hackathon]]></title>
+        <id>https://bemanproject.github.io/blog/nyc-hackathon</id>
+        <link href="https://bemanproject.github.io/blog/nyc-hackathon"/>
+        <updated>2025-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[busy coding]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="busy coding" src="https://bemanproject.github.io/assets/images/hacking-5945c8c4c7e6f3bfb41d42196d483662.jpg" title="Several hackathon members busy coding. They give the impression of serious and intense work happening!" width="4000" height="3000" class="img_ev3q"></p>
+<p>Adobe hosted an exciting and intense half-day Beman hackathon where we worked on
+adding new Beman libraries, addressed infrastructure issues, and brainstormed
+designs for the Beman website.</p>
+<p>It was awesome to collaborate in person. Here's
+some of the awesome stuff that got accomplished:</p>
+<ul>
+<li><strong>New Beman tagline: "Tomorrow's C++ Standard Libraries Today"</strong>. Thanks Nick
+DeMarco for this great contribution!</li>
+<li><strong>std::elide</strong> paper implementation from Robert Leahy, a first time
+contributor!</li>
+<li>Linus Boehm made some great progress creating a
+<a href="https://github.com/bemanproject/indirect/pull/1" target="_blank" rel="noopener noreferrer"><strong>std::indirect/std::polymorphic</strong></a>
+Beman library.</li>
+<li>We had several discussions on the future of the
+<a href="https://github.com/bemanproject/exemplar" target="_blank" rel="noopener noreferrer">exemplar</a> library.</li>
+<li>River Wu identified <strong>root cause of an ASAN hanging issue</strong>.</li>
+<li>Eddie Nolan and I sketched out a <a href="https://www.ednolan.com/mockup.html" target="_blank" rel="noopener noreferrer">rough
+design</a> for the new website.</li>
+</ul>
+<p>Overall it was productive and a ton of fun. Thanks to Robert, Eddie, Linus,
+River, Nick, Bret, and Robert for participating!</p>
+<p><img decoding="async" loading="lazy" alt="portrait of attendees" src="https://bemanproject.github.io/assets/images/final-photo-407637652af7b6439137bab178736b99.jpg" title="All the hackathon folks standing together in a portrait looking very cool." width="4000" height="3000" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>David Sankel</name>
+            <uri>https://github.com/camio</uri>
+        </author>
+        <category label="Hackathon" term="Hackathon"/>
+        <category label="Beman" term="Beman"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beman Project Introduction Online]]></title>
+        <id>https://bemanproject.github.io/blog/beman-tutorial</id>
+        <link href="https://bemanproject.github.io/blog/beman-tutorial"/>
+        <updated>2025-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[David Sankel’s talk on Beman at 2024 CppCon is now online!]]></summary>
+        <content type="html"><![CDATA[<p>David Sankel’s talk on Beman at 2024 CppCon is now online!
+The presentation answers many questions about the project purpose and policies.</p>
+<iframe width="800" height="540" src="https://www.youtube.com/embed/f4JinCpcQOg" frameborder="0" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>]]></content>
+        <author>
+            <name>Jeff Garland</name>
+            <uri>https://github.com/JeffGarland</uri>
+        </author>
+        <category label="CppCon" term="CppCon"/>
+        <category label="Conference" term="Conference"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[About Beman]]></title>
+        <id>https://bemanproject.github.io/blog/about-beman</id>
+        <link href="https://bemanproject.github.io/blog/about-beman"/>
+        <updated>2024-10-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A photo of Beman Dawes]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="A photo of Beman Dawes" src="https://bemanproject.github.io/assets/images/beman-6694694642e14174e61829c7aae7c8c8.png" width="1920" height="1654" class="img_ev3q"></p>
+<p>I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.</p>
+<p>I didn’t know what to expect; I sat in one of the chairs at the edge of the room while the committee took seats at a big “U” of tables in the center. After some preliminary business, the meeting broke into Core and Library “working groups.” Since exception safety was mostly a library issue, I stayed with the library group, of which Beman was the chair.</p>
+<p>Beman started by asking me to join the other members in the center of the room and filling me in on the job at hand: working through issues people had reported with the draft C++ standard. That was my first indication of the extraordinarily inclusive tone he set for these meetings. Everyone, and every idea, was treated with collegial respect, and the spirit of openness and contribution flowing from Beman had clearly “infected” the other participants. I cautiously made a few points, which were greeted with appreciation, where I thought I could contribute.</p>
+<p>I left that meeting with the realization that it was possible to work together in a way I had never experienced in my regular job, driven by consensus, and that this spirit both raised the level of discourse, and produced better results, than what I had seen before. It put the lie to the disparaging phrase “designed by committee.” So when Beman proposed that we start the Boost Libraries project, I was immediately on board. His idea for Boost would blossom into a unique community of collaborative library designers because of the example he set.</p>
+<p>As we grew Boost over the years, so grew our friendship, and when Beman passed away suddenly in 2020, it was a great loss to me personally, and, I think, to the world of programming. Beman never sought the spotlight, and I always wondered what would become of his contribution, which was surely underappreciated. That’s why I was so thrilled to hear that a modern C++ libraries project was being launched in his name. May it continue to demonstrate Beman’s commitment to community and excellence.</p>]]></content>
+        <author>
+            <name>Dave Abrahams</name>
+            <uri>https://github.com/dabrahams</uri>
+        </author>
+        <category label="Beman" term="Beman"/>
+    </entry>
+</feed>
